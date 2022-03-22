@@ -17,3 +17,7 @@ Content-Type: application/json
   "email": "erwin@test.com",
   "password": "password"
 }
+
+### auth test
+GET http://localhost:3000/users.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDgwNzE1Nzl9.pRjTcu4YnJ3u3EOTncJjpWmn8r6EmXcCKmZ0oz2tAb4
